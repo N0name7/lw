@@ -16,7 +16,7 @@ public class StartClass extends Application {
         String login = "f0687773_lwbd";
         String pass = "20020801";
         bdconnect = DriverManager.getConnection(SQL,login,pass);
-        FXMLLoader fxmlLoader = new FXMLLoader(StartClass.class.getResource("login.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(StartClass.class.getResource("fxml/login.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Login");
         stage.setScene(scene);
